@@ -1,0 +1,6 @@
+FROM express-app
+RUN yarn global add nodemon
+RUN yarn install
+ENV NODE_ENV=development
+EXPOSE 9229
+CMD ["./start.sh"]

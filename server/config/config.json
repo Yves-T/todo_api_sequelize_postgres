@@ -1,0 +1,16 @@
+{
+  "development": {
+    "username": "testuser",
+    "password": "example",
+    "database": "todos_dev",
+    "host": "postgres",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "testuser",
+    "password": "example",
+    "database": "database_test",
+    "host": "postgres",
+    "dialect": "postgres"
+  }
+}
